@@ -19,7 +19,7 @@
 - **Dependencies**:
   - `os`, `math`, `numpy`, `matplotlib`, `pydub`, `pyannote.core`, `pyannote.audio`, `struct`, `torchaudio`, `soundfile`, `torch`, `urllib`, `scipy.io.wavfile`, `pydub`, `librosa`
 
-#### `mix.py`:
+#### `calculate_erorr.py`:
 - **Description**: This Python script performs diarization error rate (DER) evaluation between predicted speaker segments and reference segments. It utilizes the `pyannote` library for diarization error rate calculation.
 - **Key Features**:
   - Reads predicted speaker segments from text files.
@@ -36,7 +36,7 @@
   - Final aggregated result including total, correct, missed detection, false alarm, and average diarization error rate across all samples.
  
 
-#### `sn_rotation.py`:
+#### `segment_analysis.py`:
 - **Description**: This Python script calculates the duration and distribution of different segments (noises, short speech, and medium speech) based on speaker segments provided in an RTTM (Rich Transcription Time Marked) file.
 - **Key Features**:
   - Reads speaker segments from an RTTM file.
